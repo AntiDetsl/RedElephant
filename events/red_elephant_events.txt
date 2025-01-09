@@ -1,0 +1,19 @@
+namespace = red_elephant_events
+
+country_event = {
+	id = sale_titles_event.1
+	title = sale_titles_event.1.t
+	desc = sale_titles_event.1.d
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sale_titles_event.1.a
+		
+		add_country_modifier = {
+			name = "sale_of_titles_bonus"
+			duration = 365
+		}
+	}
+}

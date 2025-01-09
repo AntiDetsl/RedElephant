@@ -1,0 +1,12 @@
+red_elephant_triggered_modifiers = {
+	potential = {
+		always = yes	
+	}
+
+	trigger = {
+	   always = yes
+	}
+
+	development_cost = 1
+	build_cost = 1
+}

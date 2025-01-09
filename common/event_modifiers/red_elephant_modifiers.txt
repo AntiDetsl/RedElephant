@@ -1,0 +1,5 @@
+sale_of_titles_bonus = {
+	global_tax_modifier = 0.75
+	production_efficiency = 0.50
+	trade_efficiency = 0.25
+}
