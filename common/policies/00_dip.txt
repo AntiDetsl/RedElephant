@@ -162,48 +162,6 @@ the_wooden_wall = {
 	}
 }
 
-the_importation_act = {
-	monarch_power = DIP
-
-	potential = {
-		has_idea_group = trade_ideas
-		has_idea_group = administrative_ideas
-	}
-	allow = {
-		full_idea_group = trade_ideas
-		full_idea_group = administrative_ideas
-	}
-	
-	trade_efficiency = 0.1
-	mercantilism_cost = -0.2
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1.2
-		modifier = {
-			factor = 0
-			NOT = { trade_income_percentage = 0.1 }
-		}			
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.2
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.3
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.4
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.5
-		}
-	}
-}
-
 colonial_expansions = {
 
 	monarch_power = DIP
