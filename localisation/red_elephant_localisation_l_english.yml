@@ -1,0 +1,13 @@
+﻿l_english:
+ #--------------------MOD-NERFS--------------------
+ red_elephant_nerf_modifiers:0 "Inefficient Administration"
+ desc_red_elephant_nerf_modifiers:0 "The inefficiencies in our administrative systems have led to increased costs for development and construction."
+ 
+
+ #--------------------SALE-OF-TITLES-------------------
+ sale_titles_event.1:0 "Sale of Titles!"
+ sale_titles_event.1.t:0 "Sale of Titles!"
+ sale_titles_event.1.d:0 "In an effort to raise funds, the crown has begun selling noble titles to wealthy commoners. While this provides a much-needed boost to the treasury, it may dilute the prestige of the nobility."
+ sale_titles_event.1.a:0 "Let the titles be sold!"
+ sale_of_titles_bonus:0 "Financial Windfall"
+ desc_sale_of_titles_bonus:0 "The influx of gold from the sale of titles will help stabilize our finances for a time."
