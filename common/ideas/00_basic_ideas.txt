@@ -41,7 +41,7 @@ aristocracy_ideas = {
 	}
 	international_nobility = {
 		diplomats = 1
-		general_cost = -0.1
+		general_cost = -0.2
 	}
 	rightful_conquest = {
 		fabricate_claims_cost = -0.5
@@ -1637,29 +1637,39 @@ influence_ideas = {
 
 	bonus = {
 		unjustified_demands = -0.5
+		free_dip_policy = 1
 	}
 
 	tribute_system = {
-		vassal_income = 0.25
+		vassal_income = 0.3
 	}
 	
 	additional_loyalist_recruitment = {
-		reduced_liberty_desire = 15
-		vassal_naval_forcelimit_bonus = 0.1
+		reduced_liberty_desire = 25
+		vassal_naval_forcelimit_bonus = 0.25
 	}
 	
 	integrated_elites = {
-		diplomatic_annexation_cost = -0.25
+		diplomatic_annexation_cost = -0.33
+		effect = {
+			disable_annexation_penalty = yes
+		}
+		removed_effect = {
+			enable_annexation_penalty = yes
+		}
 	}
 	buffer_states = {
-		diplomatic_upkeep = 1
+		diplomatic_upkeep = 2
 	}
 	diplomatic_influence = {
 		diplomatic_reputation = 2
+		trade_steering = 0.15
 	}
 	postal_service = {
 		envoy_travel_time = -0.25
 		liberty_desire_from_subject_development = -0.1
+		vassal_manpower_bonus = 0.25
+		vassal_sailors_bonus = 0.25
 	}
 	marcher_lords = {
 		vassal_forcelimit_bonus = 1
