@@ -1652,10 +1652,10 @@ influence_ideas = {
 	integrated_elites = {
 		diplomatic_annexation_cost = -0.33
 		effect = {
-			disable_annexation_penalty = yes
+			integrated_elites_disable_annexation_penalty = yes
 		}
 		removed_effect = {
-			enable_annexation_penalty = yes
+			integrated_elites_enable_annexation_penalty = yes
 		}
 	}
 	buffer_states = {

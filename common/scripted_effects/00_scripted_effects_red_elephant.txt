@@ -1,0 +1,16 @@
+#Country effect
+integrated_elites_disable_annexation_penalty = {
+	custom_tooltip = integrated_elites_disable_annexation_penalty_tt
+	hidden_effect = {
+		set_country_flag = integrated_elites_no_integrate_penalty
+		remove_country_modifier = annexers_legacy
+	}
+}
+
+#Country effect
+integrated_elites_enable_annexation_penalty = {
+	custom_tooltip = integrated_elites_enable_annexation_penalty_tt
+	hidden_effect = {
+		clr_country_flag = integrated_elites_no_integrate_penalty
+	}
+}
