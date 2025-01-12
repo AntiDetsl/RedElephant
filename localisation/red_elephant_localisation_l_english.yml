@@ -15,3 +15,13 @@
 #-------------------SCRIPTED EFFECTS AND TRIGGERS------------------
  integrated_elites_disable_annexation_penalty_tt:0 "§YDisable§! the Diplomatic Reputation penalty from §YAnnexing Subjects§!."
  integrated_elites_enable_annexation_penalty_tt:0 "§YEnable§! the Diplomatic Reputation penalty from §YAnnexing Subjects§!."
+
+
+ #------------------IDEAS-----------------------------
+ seaborne_hardened_corps:0 "Seaborne Hardened Corps"
+ seaborne_hardened_corps_desc:0 "Our marines undergo rigorous training to endure the harshest battles both on land and at sea. Hardened by these trials, they are capable of withstanding the shock of even the most sudden enemy assaults."
+ seaborne_hardened_corps_bonus:0 "Seaborne Hardened Corps"
+
+ #------------------CRINGE----------------------------
+ red_elephant_cringe_bonus_01:0 "I Fucking Hate This"
+ desc_red_elephant_cringe_bonus_01:0 "The developer of this mod apologizes for the implementation of a certain feature or decision that may not align with the best practices or community expectations. Unfortunately, this approach was implemented as per the direction provided by the management, and I am unable to revise it at this time. I deeply appreciate your understanding and support despite this limitation."

@@ -3,3 +3,13 @@ sale_of_titles_bonus = {
 	production_efficiency = 0.50
 	trade_efficiency = 0.25
 }
+
+#-------------------MARINES BONUSES--------------------
+seaborne_hardened_corps_bonus = {
+	shock_damage_received = -0.1
+	is_marine_modifier = yes
+}
+
+red_elephant_cringe_bonus_01 = {
+	shock_damage_received = 0.001
+}
