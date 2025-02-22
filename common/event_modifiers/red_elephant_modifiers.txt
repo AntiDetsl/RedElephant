@@ -10,6 +10,24 @@ seaborne_hardened_corps_bonus = {
 	is_marine_modifier = yes
 }
 
+unyielding_marines_bonus = {
+	land_morale = 0.1
+	is_marine_modifier = yes
+}
+
+hardened_sea_warriors_bonus = {
+	discipline = 0.05
+	is_marine_modifier = yes
+}
+
 red_elephant_cringe_bonus_01 = {
 	shock_damage_received = 0.001
+}
+
+red_elephant_cringe_bonus_02 = {
+	land_morale = -0.001
+}
+
+red_elephant_cringe_bonus_03 = {
+	discipline = -0.001
 }

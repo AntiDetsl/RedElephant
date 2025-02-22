@@ -22,6 +22,18 @@
  seaborne_hardened_corps_desc:0 "Our marines undergo rigorous training to endure the harshest battles both on land and at sea. Hardened by these trials, they are capable of withstanding the shock of even the most sudden enemy assaults."
  seaborne_hardened_corps_bonus:0 "Seaborne Hardened Corps"
 
+ unyielding_marines:0 "Unyielding Marines"
+ unyielding_marines_desc:0 "Trained for both land and sea combat, our marines possess unwavering resolve. Their discipline and fighting spirit make them a formidable force in any battle."
+ unyielding_marines_bonus:0 "Unyielding Marines"
+ 
+
+ hardened_sea_warriors:0 "Hardened Sea Warriors"
+ hardened_sea_warriors_desc:0 "Through relentless training and strict discipline, our marines have become an elite fighting force, capable of executing precise and effective amphibious assaults."
+ hardened_sea_warriors_bonus:0 "Hardened Sea Warriors"
  #------------------CRINGE----------------------------
  red_elephant_cringe_bonus_01:0 "I Fucking Hate This"
  desc_red_elephant_cringe_bonus_01:0 "The developer of this mod apologizes for the implementation of a certain feature or decision that may not align with the best practices or community expectations. Unfortunately, this approach was implemented as per the direction provided by the management, and I am unable to revise it at this time. I deeply appreciate your understanding and support despite this limitation."
+ red_elephant_cringe_bonus_02:0 "I Fucking Hate This"
+ desc_red_elephant_cringe_bonus_02:0 "The developer of this mod apologizes for the implementation of a certain feature or decision that may not align with the best practices or community expectations. Unfortunately, this approach was implemented as per the direction provided by the management, and I am unable to revise it at this time. I deeply appreciate your understanding and support despite this limitation."
+ red_elephant_cringe_bonus_03:0 "I Fucking Hate This"
+ desc_red_elephant_cringe_bonus_03:0 "The developer of this mod apologizes for the implementation of a certain feature or decision that may not align with the best practices or community expectations. Unfortunately, this approach was implemented as per the direction provided by the management, and I am unable to revise it at this time. I deeply appreciate your understanding and support despite this limitation."

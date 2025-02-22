@@ -744,7 +744,7 @@ chaplains_of_the_fleet = {
 		full_idea_group = maritime_ideas
 	}
 	
-	naval_morale = 0.1
+	allowed_marine_fraction = 0.1
 	recover_navy_morale_speed = 0.1
 	
 	effect = {}
@@ -880,7 +880,7 @@ terms_of_surrender_statute = {
 	}
 }
 
-skilled_cartographers = {
+hardened_sea_warriors = {
 	monarch_power = DIP
 	
 	potential = {
@@ -891,12 +891,24 @@ skilled_cartographers = {
 	allow = {
 		full_idea_group = naval_ideas
 		full_idea_group = exploration_ideas
-	}	
+	}
 	
-	global_naval_engagement_modifier = 0.2
-	
-	effect = {}
-	removed_effect = {}
+	discipline = 0.001
+
+	effect = {
+		add_country_modifier = {
+				name = hardened_sea_warriors_bonus
+				duration = -1
+			}
+			add_country_modifier = {
+				name = red_elephant_cringe_bonus_03
+				duration = -1
+			}
+	}
+	removed_effect = {
+		remove_country_modifier = hardened_sea_warriors_bonus
+		remove_country_modifier = red_elephant_cringe_bonus_03
+	}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -1333,7 +1345,6 @@ trained_marines_act = {
 		full_idea_group = maritime_ideas
 	}
 	
-	naval_morale = 0.1
 	allowed_marine_fraction = 0.1
 
 	effect = {}

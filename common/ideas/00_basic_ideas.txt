@@ -1744,9 +1744,22 @@ naval_ideas = {
 			remove_country_modifier = red_elephant_cringe_bonus_01
 		}
 	}
-	superior_seamanship = {
-		naval_morale = 0.1
-		global_naval_engagement_modifier = 0.1
+	unyielding_marines = {
+		land_morale = 0.001
+		effect = {
+			add_country_modifier = {
+				name = unyielding_marines_bonus
+				duration = -1
+			}
+			add_country_modifier = {
+				name = red_elephant_cringe_bonus_02
+				duration = -1
+			}
+		}
+		removed_effect = {
+			remove_country_modifier = unyielding_marines_bonus
+			remove_country_modifier = red_elephant_cringe_bonus_02
+		}
 	}
 
 	ai_will_do = {
