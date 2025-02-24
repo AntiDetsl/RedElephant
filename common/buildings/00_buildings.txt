@@ -2584,9 +2584,9 @@ ramparts = {
 		all
 	}
 
-	#build_trigger = {
-	#	is_flatland = yes
-	#}
+	build_trigger = {
+		NOT = {has_terrain = mountain}
+	}
 	modifier = {
 		local_hostile_attrition = 1
 		local_defensiveness = 0.15
