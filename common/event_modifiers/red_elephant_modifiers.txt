@@ -31,3 +31,16 @@ red_elephant_cringe_bonus_02 = {
 red_elephant_cringe_bonus_03 = {
 	discipline = -0.001
 }
+
+
+
+#-----------------------PARLAMENT BONUSES---------------------------
+
+red_elephant_strategic_reserves = {
+	manpower_recovery_speed = 0.05
+	land_maintenance_modifier = -0.05
+}
+
+red_elephant_marine_conscription_act = {
+	sailors_recovery_speed = 0.1
+}

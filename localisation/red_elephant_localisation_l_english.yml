@@ -30,6 +30,8 @@
  hardened_sea_warriors:0 "Hardened Sea Warriors"
  hardened_sea_warriors_desc:0 "Through relentless training and strict discipline, our marines have become an elite fighting force, capable of executing precise and effective amphibious assaults."
  hardened_sea_warriors_bonus:0 "Hardened Sea Warriors"
+
+
  #------------------CRINGE----------------------------
  red_elephant_cringe_bonus_01:0 "I Fucking Hate This"
  desc_red_elephant_cringe_bonus_01:0 "The developer of this mod apologizes for the implementation of a certain feature or decision that may not align with the best practices or community expectations. Unfortunately, this approach was implemented as per the direction provided by the management, and I am unable to revise it at this time. I deeply appreciate your understanding and support despite this limitation."
@@ -37,3 +39,10 @@
  desc_red_elephant_cringe_bonus_02:0 "The developer of this mod apologizes for the implementation of a certain feature or decision that may not align with the best practices or community expectations. Unfortunately, this approach was implemented as per the direction provided by the management, and I am unable to revise it at this time. I deeply appreciate your understanding and support despite this limitation."
  red_elephant_cringe_bonus_03:0 "I Fucking Hate This"
  desc_red_elephant_cringe_bonus_03:0 "The developer of this mod apologizes for the implementation of a certain feature or decision that may not align with the best practices or community expectations. Unfortunately, this approach was implemented as per the direction provided by the management, and I am unable to revise it at this time. I deeply appreciate your understanding and support despite this limitation."
+
+
+#--------------------PARLAMENT BONUSES--------------------------------
+red_elephant_strategic_reserves:0 "Strategic Reserves"
+desc_red_elephant_strategic_reserves:0 "Through improved logistics and recruitment strategies, we ensure that our armies can reinforce faster and operate more efficiently."
+red_elephant_marine_conscription_act:0 "Marine Conscription Act"
+desc_red_elephant_marine_conscription_act:0 "In times of war, the state enforces a special conscription program to rapidly expand its marine forces."

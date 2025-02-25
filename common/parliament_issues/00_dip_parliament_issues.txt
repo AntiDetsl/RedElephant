@@ -208,17 +208,22 @@ emergency_impressment_act = {
 			has_seat_in_parliament = yes
 			has_port = yes
 		}
+		NOT = {has_country_modifier = red_elephant_marine_conscription_act}
 	}
 	
 	effect = {
 		issue_effect_scaling_with_estate_influence = {
 			estate = estate_burghers
-			effect1 = "add_years_of_sailors_scaled_to_seats = 0.5"
-			effect2 = "add_years_of_sailors_scaled_to_seats = 0.75"
-			effect3 = "add_years_of_sailors_scaled_to_seats = 1"
-			effect4 = "add_years_of_sailors_scaled_to_seats = 1.25"
-			effect5 = "add_years_of_sailors_scaled_to_seats = 1.5"
-			fallback_effect = "add_years_of_sailors_scaled_to_seats = 1"
+			effect1 = "add_years_of_sailors_scaled_to_seats = 0.25"
+			effect2 = "add_years_of_sailors_scaled_to_seats = 0.375"
+			effect3 = "add_years_of_sailors_scaled_to_seats = 0.5"
+			effect4 = "add_years_of_sailors_scaled_to_seats = 0.625"
+			effect5 = "add_years_of_sailors_scaled_to_seats = 0.75"
+			fallback_effect = "add_years_of_sailors_scaled_to_seats = 0.5"
+		}
+		add_country_modifier = {
+			name = red_elephant_marine_conscription_act
+			duration = 3650
 		}
 	}
 	
